@@ -9,7 +9,6 @@ $(document).ready(function(){
                 duration: 500,
                 progress: function(animation, progress, msRemaining) {
                     tamanho = $("#menu").width();
-                    console.log(tamanho);
                     $("#conteudo").attr('style','float:left;padding-top:76px;overflow-x: auto;width:calc(100% - '+tamanho+'px);');
                     if(progress > 0.65){
                         $("#menuUl li").attr('style','display:none')
@@ -25,7 +24,6 @@ $(document).ready(function(){
                 duration: 500,
                 progress: function(animation, progress, msRemaining) {
                     tamanho = $("#menu").width();
-                    console.log(tamanho);
                     $("#conteudo").attr('style','float:left;padding-top:76px;overflow-x: auto;width:calc(100% - '+tamanho+'px);');
                     if(progress > 0.65){
                         $("#menuUl li").attr('style','display:block')
