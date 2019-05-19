@@ -1,0 +1,32 @@
+html, body {
+    min-height: 100% !important;
+    height: 100%;
+}
+.space {
+    height: 56px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    
+}
+li {
+    padding: 15px 0;
+    width:100%;
+    flex-wrap: nowrap;
+}
+
+li:hover {
+    background: rgb(70, 87, 160);
+}
+
+.navbar {
+    background:rgb(86, 100, 163);
+}
+
+.card-header {
+    text-align: center;
+}
