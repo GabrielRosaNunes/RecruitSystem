@@ -31,3 +31,12 @@ ul {
     text-align: center;
     font-weight: bold;
 }
+
+#image {
+    background: rgb(199, 199, 199);
+    height:70px;
+    width: 70px;
+    border-radius:100px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
