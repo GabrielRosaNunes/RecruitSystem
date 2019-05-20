@@ -13,13 +13,13 @@ ul {
     width: 100%;
     
 }
-li {
+#menu li {
     padding: 15px 0;
     width:100%;
     flex-wrap: nowrap;
 }
 
-li:hover {
+#menu li:hover {
     background: rgb(70, 87, 160);
 }
 
@@ -29,4 +29,5 @@ li:hover {
 
 .card-header {
     text-align: center;
+    font-weight: bold;
 }
