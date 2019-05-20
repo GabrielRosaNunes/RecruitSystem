@@ -1,0 +1,54 @@
+html, body {
+    min-height: 100% !important;
+    height: 100%;
+}
+.space {
+    height: 56px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    
+}
+#menu li {
+    padding: 15px 0;
+    width:100%;
+    flex-wrap: nowrap;
+}
+
+#menu li:hover {
+    background: rgb(70, 87, 160);
+}
+
+.linkMenu {
+	color:white;
+	text-decoration: none
+}
+
+.linkMenu:hover {
+	color:white;
+	font-weight: bold;
+}
+
+.navbar {
+    background:rgb(86, 100, 163);
+}
+
+.card-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+#image {
+    background: rgb(199, 199, 199);
+    height:70px;
+    width: 70px;
+    border-radius:100px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
