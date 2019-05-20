@@ -1,7 +1,7 @@
 html,body {
     height: 100%;
     overflow: hidden;
-    background: linear-gradient(rgb(248, 39, 39),rgb(0, 0, 255)) no-repeat;
+    background: linear-gradient(rgb(148, 137, 241),rgb(0, 0, 255)) no-repeat;
 }
 a {
     color: black;
@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-    color: rgb(136, 34, 34);
+    color: rgb(24, 47, 153);
     text-decoration: underline;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 .divisor{
     width: 400px;
     height: 2px;
-    background: brown;
+    background: rgb(50, 71, 165);
     margin: 0 auto;
 }
 .form-group {
@@ -76,8 +76,8 @@ a:hover {
 }
 
 .login-footer .btn{
-    background: brown;
-    border: 1px solid brown;
+    background: rgb(50, 71, 165);
+    border: 1px solid rgb(50, 71, 165);
     font-size: 20px;
     font-weight: bold;
     color: white;
@@ -85,5 +85,5 @@ a:hover {
 }
 
 .login-footer .btn:hover {
-    background: rgb(245, 21, 21);
+    background: rgb(24, 47, 153);
 }
