@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="height: 100%;">
+    <nav class="navbar navbar-dark d-flex fixed-top">
+        <button  id="toggler" type="button" class="btn btn-outline-light" style="z-index: 3;"><i class="fa fa-bars"></i></button>
+        <span class="align-self-center" style="position:absolute; width:100%;text-align: center;color:white;font-weight:bold">Nome P�gina</span>
+        <form>
+            <div class="input-group">
+                <input type="text" name="" class="form-control">
+            
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-outline-light"><i class="fa fa-search" ></i></button>
+                </div>
+            </div>
+        </form>
+    </nav>
+    <div id="menu"  style="position:fixed;height:100%; width:300px;float:left;padding-top:56px;color:white ;background:rgb(86, 100, 163);">
+        <div id="menudiv" class="d-flex align-items-center">
+            <ul id="menuUl" style="margin: 0 auto; text-align: center">
+                <li  style="text-align:center;">
+                    <img id="image" src="images.jpg" width="70px" height="70px">
+                    <div style="width: 100%;text-align:center;color:white;font-weight:bold">Gabriel Rosa</div>
+                </li>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+        
+    </div>
+    <div id="conteudo" style="float:left;padding-top:76px;padding-left:300px;width:100%;overflow-x: auto">
+        <div class="container-fluid">
+            
+            <div class="row" style="margin-bottom:15px;">
+                <div class="col">
+                    <div class="card" style="width:100%">
+                        <div class="card-header">
+                            <center>Multiline</center>
+                        </div>
+                        <div class="card-body">
+                            
+                                <div class="multiline">
+                                    <div class="header-multiline">
+                                        <div class="row">
+                                            <div class=" multiline-header-delete"></div>
+                                            <div class="col multiline-header-item">Titulo 1</div>
+                                            <div class="col multiline-header-item">Titulo 2</div>
+                                            <div class="col multiline-header-item">Titulo 3</div>
+                                        </div>
+                                    </div>
+                                    <div class="body-multiline ">
+                                        <div class="row">
+                                            <div class="multiline-body-delete"><button type="button" class="btn btn-danger"><i class="fa fa-times"></i></button></div>
+                                            <div class="col multiline-body-item">
+                                                <input type='text' class="form-control multiline-input">
+                                            </div>
+                                            <div class="col multiline-body-item">
+                                                <input type='text' class="form-control multiline-input">
+                                            </div>
+                                            <div class="col multiline-body-item">
+                                                <input type='text' class="form-control multiline-input">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="multiline-body-delete"><button type="button" class="btn btn-danger"><i class="fa fa-times"></i></button></div>
+                                            <div class="col multiline-body-item">
+                                                <input type='text' class="form-control multiline-input">
+                                            </div>
+                                            <div class="col multiline-body-item">
+                                                <input type='text' class="form-control multiline-input">
+                                            </div>
+                                            <div class="col multiline-body-item">
+                                                <input type='text' class="form-control multiline-input">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-multiline clearfix">
+                                        <div class="row pt-1" >
+                                            <div class="col">
+                                                <button class="btn btn-success"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
