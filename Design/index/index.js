@@ -3,7 +3,7 @@ $(document).ready(function(){
     
     $("#toggler").click(function(){
         if (controlMenu == 0 ) {
-            $("#menu, #menu div#menudiv,#menuUl,#menuUl li").animate({
+            $("#menu, #menu div,#menuUl,#menuUl li").animate({
                 width: "0px"
             },{
                 duration: 500,
@@ -18,7 +18,7 @@ $(document).ready(function(){
             controlMenu = 1;
         } else {
             
-            $("#menu, #menu div#menudiv,#menuUl,#menuUl li").animate({
+            $("#menu, #menu div,#menuUl,#menuUl li").animate({
                 width: "300px"
             },{
                 duration: 500,
