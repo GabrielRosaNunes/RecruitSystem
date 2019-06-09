@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" style="height:100%">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
@@ -16,7 +16,7 @@
         <form>
             <div class="input-group">
                 <input type="text" name="" class="form-control">
-            
+
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-outline-light"><i class="fa fa-search" ></i></button>
                 </div>
@@ -24,14 +24,21 @@
         </form>
     </nav>
     <div id="menu"  style="position:fixed;height:100%; width:300px;float:left;padding-top:56px;color:white ;background:rgb(86, 100, 163);">
-        <div class="d-flex align-items-center">
+        <div id="menudiv" class="d-flex align-items-center">
             <ul id="menuUl" style="margin: 0 auto; text-align: center">
+                <li  style="text-align:center;">
+                    <img id="image" src="images.jpg" width="70px" height="70px">
+                    <div style="width: 100%;text-align:center;color:white;font-weight:bold">Gabriel Rosa</div>
+					<div>
+						<i class="fa fa-edit"></i> <a class="linkMenu" href="" >Editar Perfil</a>
+					</div>
+                </li>
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
             </ul>
         </div>
-        
+
     </div>
     <div id="conteudo" style="float:left;padding-top:76px;padding-left:300px;width:100%;overflow-x: auto">
         <div class="container-fluid">
@@ -104,11 +111,11 @@
         </div>
     </div>
 
-    
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
-</html>
+</html> 

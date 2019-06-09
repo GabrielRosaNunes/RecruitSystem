@@ -11,7 +11,7 @@ ul {
     list-style-type: none;
     padding-left: 0;
     width: 100%;
-    
+
 }
 #menu li {
     padding: 15px 0;
@@ -23,6 +23,16 @@ ul {
     background: rgb(70, 87, 160);
 }
 
+.linkMenu {
+	color:white;
+	text-decoration: none
+}
+
+.linkMenu:hover {
+	color:white;
+	font-weight: bold;
+}
+
 .navbar {
     background:rgb(86, 100, 163);
 }
@@ -30,4 +40,13 @@ ul {
 .card-header {
     text-align: center;
     font-weight: bold;
+}
+
+#image {
+    background: rgb(199, 199, 199);
+    height:70px;
+    width: 70px;
+    border-radius:100px;
+    display: inline-block;
+    margin-bottom: 10px;
 }
